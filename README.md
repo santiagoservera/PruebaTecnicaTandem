@@ -61,6 +61,18 @@ Regex personalizado
 
 Validaciones complejas (ej. que no haya números en el nombre)
 
+## Guia de basica de funcionamiento
+
+1.Ejecutar el proyecto
+
+2.Ingresar datos en los campos
+
+3.Las validaciones se ejecutaran de ser nececesarias
+
+4.Mandar el formulario mediante el botón de enviar
+
+5.El formulario se posteara con un fetch hacia "https://reqres.in/api/users" como prueba.
+
 ## Tipado
 
 Se utiliza TypeScript para tipar correctamente las propiedades de los campos del formulario (FieldConfig, FieldOption, etc.), promoviendo una experiencia de desarrollo más robusta y predecible. Las interfaces están pensadas para ser reutilizables y fácilmente escalables.
