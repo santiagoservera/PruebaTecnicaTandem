@@ -21,6 +21,10 @@ npm run dev
 
 ```
 
+## Diseño
+
+El diseño está pensando para que sea facil de entender para el usuario con el uso de alertas, mensajes de éxito y error, y botones de acción.
+
 ## Funcionamiento
 
 Este formulario permite ingresar información personal a través de campos de texto y campos select. El diseño está separado en múltiples capas para mejorar la mantenibilidad y la escalabilidad:
@@ -36,6 +40,14 @@ formConfig.ts: Define la estructura del formulario, incluyendo campos, tipos, va
 validationUtils.ts: Genera reglas de validación en base a configuraciones externas, incluyendo campos obligatorios, longitudes, expresiones regulares, etc.
 
 fieldConfig.ts: Define la estructura de un campo del formulario, incluyendo su nombre, tipo, valores por defecto, y qué validaciones aplicar a él.
+
+## Estructura Json
+
+La estructura del formulario se define en el archivo formConfig.ts, que contiene una lista de objetos de configuración de formulario. Cada objeto representa un campo del formulario, y contiene información como el nombre, tipo, valores por defecto, y qué validaciones aplicar a él.
+
+Los campos del formulario se pueden definir como texto, email, select, y también pueden tener campos condicionales, como el número de la casa o el número de departamento.
+
+Base esta estructura en el Json que se mostro en los requerimientos.
 
 ## Validaciones dinámicas
 
