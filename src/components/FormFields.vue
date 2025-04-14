@@ -43,8 +43,8 @@ const nombreError = ref("");
 let nombreErrorTimeout: number | null = null;
 const casaNumeroError = ref("");
 let casaNumeroErrorTimeout: number | null = null;
-const departamentoNumeroError = ref("");
-let departamentoNumeroErrorTimeout: number | null = null;
+// const departamentoNumeroError = ref("");
+// let departamentoNumeroErrorTimeout: number | null = null;
 
 // Manejar cambios en los campos
 function handleFieldUpdate(fieldName: string, value: string) {
